@@ -1,0 +1,908 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-family: 'Myriad Pro', 'Trebuchet Ms', sans-serif;
+    font-size: 100%;
+    line-height: 22px;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    background: #333;
+    color: #fff;
+    padding: 0;
+    border-bottom: 1px solid #dadada;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    background: #fff;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.like {
+    margin-top: 5px;
+}
+
+.hireme,
+.hireme:hover {
+    color: #f54cab;
+}
+
+#download {
+    margin-left: 20px;
+}
+
+.subheader {
+    background: white;
+    border-bottom: 1px solid #dadada;
+    color: #555;
+    padding: 0;
+}
+
+.subheader-col1 {
+    padding: 40px 50px 0 0;
+}
+
+.subheader-col2 {
+    padding: 40px 0 20px 20px;
+    border-left: 1px solid #dadada;
+}
+
+.phone,
+.email {
+    font-size: 38px;
+    line-height: 50px;
+    text-align: right;
+}
+
+.name,
+.surname {
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+.phone,
+.surname {
+    color: #acacac;
+}
+
+#avatar {
+    background: white;
+    padding: 2px;
+    border: 1px solid #dadada;
+}
+
+#content .first-col {
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+#content .second-col {
+    border-left: 1px solid #dadada;
+}
+
+div.resumeEntry { padding-top: 25px; clear: both; }
+div.resumeEntry div.when  { text-align: right; }
+div.resumeEntry div.span3 p { color:#f54cab; font-size: 20px;font-style: italic; font-weight: 100;}
+div.resumeEntry div em { color:#bbbbbb; font-size: 16px;}
+div.resumeEntry div h3 { color: #555555; font-weight: 100; font-size: 24px; font-style: italic; line-height: 25px; margin: 0; }
+div.resumeEntry div h5 { font-size: 16px; margin: 0 0 10px 0; }
+div.resumeEntry div h5 a { color: #34beee; font-weight: 100; }
+div.resumeEntry p { font-weight: 100; }
+div.resumeEntry .tag { background: #555; font-size: 12px; color: #fff; white-space: nowrap; padding: 4px 8px; margin-right: 5px; }
+
+/* Sidebar Content Settings */
+div#sidebarContent { padding: 0 20px 40px 50px; margin: 0; }
+div#sidebarContent h4 { font-size: 20px; font-weight: normal; color: #acacac; font-style: italic; margin-bottom: 20px; }
+div#sidebarContent p em { color: #888888; }
+div#sidebarContent div.sidebarPanel { margin-top: 60px; clear: both;}
+div#sidebarContent div#skills ul{ margin: 0; padding-bottom: 15px; list-style: none; }
+div#sidebarContent div#skills ul li { line-height: 26px; border-bottom: 1px solid #dadada; width: 140px; padding: 0 4px;}
+div#sidebarContent div#skills ul li:hover div.
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    .row {
+    margin-left: -30px;
+    *zoom: 1;
+    }
+    .row:before,
+    .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+    }
+    .row:after {
+    clear: both;
+    }
+    [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+    }
+    .container,
+    .navbar-static-top .container,
+    .navbar-fixed-top .container,
+    .navbar-fixed-bottom .container {
+    width: 1170px;
+    }
+    .span12 {
+    width: 1170px;
+    }
+    .span11 {
+    width: 1070px;
+    }
+    .span10 {
+    width: 970px;
+    }
+    .span9 {
+    width: 870px;
+    }
+    .span8 {
+    width: 770px;
+    }
+    .span7 {
+    width: 670px;
+    }
+    .span6 {
+    width: 570px;
+    }
+    .span5 {
+    width: 470px;
+    }
+    .span4 {
+    width: 370px;
+    }
+    .span3 {
+    width: 270px;
+    }
+    .span2 {
+    width: 170px;
+    }
+    .span1 {
+    width: 70px;
+    }
+    .offset12 {
+    margin-left: 1230px;
+    }
+    .offset11 {
+    margin-left: 1130px;
+    }
+    .offset10 {
+    margin-left: 1030px;
+    }
+    .offset9 {
+    margin-left: 930px;
+    }
+    .offset8 {
+    margin-left: 830px;
+    }
+    .offset7 {
+    margin-left: 730px;
+    }
+    .offset6 {
+    margin-left: 630px;
+    }
+    .offset5 {
+    margin-left: 530px;
+    }
+    .offset4 {
+    margin-left: 430px;
+    }
+    .offset3 {
+    margin-left: 330px;
+    }
+    .offset2 {
+    margin-left: 230px;
+    }
+    .offset1 {
+    margin-left: 130px;
+    }
+    .row-fluid {
+    width: 100%;
+    *zoom: 1;
+    }
+    .row-fluid:before,
+    .row-fluid:after {
+    display: table;
+    line-height: 0;
+    content: "";
+    }
+    .row-fluid:after {
+    clear: both;
+    }
+    .row-fluid [class*="span"] {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 30px;
+    margin-left: 2.564102564102564%;
+    *margin-left: 2.5109110747408616%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    }
+    .row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+    }
+    .row-fluid .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 2.564102564102564%;
+    }
+    .row-fluid .span12 {
+    width: 100%;
+    *width: 99.94680851063829%;
+    }
+    .row-fluid .span11 {
+    width: 91.45299145299145%;
+    *width: 91.39979996362975%;
+    }
+    .row-fluid .span10 {
+    width: 82.90598290598291%;
+    *width: 82.8527914166212%;
+    }
+    .row-fluid .span9 {
+    width: 74.35897435897436%;
+    *width: 74.30578286961266%;
+    }
+    .row-fluid .span8 {
+    width: 65.81196581196582%;
+    *width: 65.75877432260411%;
+    }
+    .row-fluid .span7 {
+    width: 57.26495726495726%;
+    *width: 57.21176577559556%;
+    }
+    .row-fluid .span6 {
+    width: 48.717948717948715%;
+    *width: 48.664757228587014%;
+    }
+    .row-fluid .span5 {
+    width: 40.17094017094017%;
+    *width: 40.11774868157847%;
+    }
+    .row-fluid .span4 {
+    width: 31.623931623931625%;
+    *width: 31.570740134569924%;
+    }
+    .row-fluid .span3 {
+    width: 23.076923076923077%;
+    *width: 23.023731587561375%;
+    }
+    .row-fluid .span2 {
+    width: 14.52991452991453%;
+    *width: 14.476723040552828%;
+    }
+    .row-fluid .span1 {
+    width: 5.982905982905983%;
+    *width: 5.929714493544281%;
+    }
+    .row-fluid .offset12 {
+    margin-left: 105.12820512820512%;
+    *margin-left: 105.02182214948171%;
+    }
+    .row-fluid .offset12:first-child {
+    margin-left: 102.56410256410257%;
+    *margin-left: 102.45771958537915%;
+    }
+    .row-fluid .offset11 {
+    margin-left: 96.58119658119658%;
+    *margin-left: 96.47481360247316%;
+    }
+    .row-fluid .offset11:first-child {
+    margin-left: 94.01709401709402%;
+    *margin-left: 93.91071103837061%;
+    }
+    .row-fluid .offset10 {
+    margin-left: 88.03418803418803%;
+    *margin-left: 87.92780505546462%;
+    }
+    .row-fluid .offset10:first-child {
+    margin-left: 85.47008547008548%;
+    *margin-left: 85.36370249136206%;
+    }
+    .row-fluid .offset9 {
+    margin-left: 79.48717948717949%;
+    *margin-left: 79.38079650845607%;
+    }
+    .row-fluid .offset9:first-child {
+    margin-left: 76.92307692307693%;
+    *margin-left: 76.81669394435352%;
+    }
+    .row-fluid .offset8 {
+    margin-left: 70.94017094017094%;
+    *margin-left: 70.83378796144753%;
+    }
+    .row-fluid .offset8:first-child {
+    margin-left: 68.37606837606839%;
+    *margin-left: 68.26968539734497%;
+    }
+    .row-fluid .offset7 {
+    margin-left: 62.393162393162385%;
+    *margin-left: 62.28677941443899%;
+    }
+    .row-fluid .offset7:first-child {
+    margin-left: 59.82905982905982%;
+    *margin-left: 59.72267685033642%;
+    }
+    .row-fluid .offset6 {
+    margin-left: 53.84615384615384%;
+    *margin-left: 53.739770867430444%;
+    }
+    .row-fluid .offset6:first-child {
+    margin-left: 51.28205128205128%;
+    *margin-left: 51.175668303327875%;
+    }
+    .row-fluid .offset5 {
+    margin-left: 45.299145299145295%;
+    *margin-left: 45.1927623204219%;
+    }
+    .row-fluid .offset5:first-child {
+    margin-left: 42.73504273504273%;
+    *margin-left: 42.62865975631933%;
+    }
+    .row-fluid .offset4 {
+    margin-left: 36.75213675213675%;
+    *margin-left: 36.645753773413354%;
+    }
+    .row-fluid .offset4:first-child {
+    margin-left: 34.18803418803419%;
+    *margin-left: 34.081651209310785%;
+    }
+    .row-fluid .offset3 {
+    margin-left: 28.205128205128204%;
+    *margin-left: 28.0987452264048%;
+    }
+    .row-fluid .offset3:first-child {
+    margin-left: 25.641025641025642%;
+    *margin-left: 25.53464266230224%;
+    }
+    .row-fluid .offset2 {
+    margin-left: 19.65811965811966%;
+    *margin-left: 19.551736679396257%;
+    }
+    .row-fluid .offset2:first-child {
+    margin-left: 17.094017094017094%;
+    *margin-left: 16.98763411529369%;
+    }
+    .row-fluid .offset1 {
+    margin-left: 11.11111111111111%;
+    *margin-left: 11.004728132387708%;
+    }
+    .row-fluid .offset1:first-child {
+    margin-left: 8.547008547008547%;
+    *margin-left: 8.440625568285142%;
+    }
+    input,
+    textarea,
+    .uneditable-input {
+    margin-left: 0;
+    }
+    .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 30px;
+    }
+    input.span12,
+    textarea.span12,
+    .uneditable-input.span12 {
+    width: 1156px;
+    }
+    input.span11,
+    textarea.span11,
+    .uneditable-input.span11 {
+    width: 1056px;
+    }
+    input.span10,
+    textarea.span10,
+    .uneditable-input.span10 {
+    width: 956px;
+    }
+    input.span9,
+    textarea.span9,
+    .uneditable-input.span9 {
+    width: 856px;
+    }
+    input.span8,
+    textarea.span8,
+    .uneditable-input.span8 {
+    width: 756px;
+    }
+    input.span7,
+    textarea.span7,
+    .uneditable-input.span7 {
+    width: 656px;
+    }
+    input.span6,
+    textarea.span6,
+    .uneditable-input.span6 {
+    width: 556px;
+    }
+    input.span5,
+    textarea.span5,
+    .uneditable-input.span5 {
+    width: 456px;
+    }
+    input.span4,
+    textarea.span4,
+    .uneditable-input.span4 {
+    width: 356px;
+    }
+    input.span3,
+    textarea.span3,
+    .uneditable-input.span3 {
+    width: 256px;
+    }
+    input.span2,
+    textarea.span2,
+    .uneditable-input.span2 {
+    width: 156px;
+    }
+    input.span1,
+    textarea.span1,
+    .uneditable-input.span1 {
+    width: 56px;
+    }
+    .thumbnails {
+    margin-left: -30px;
+    }
+    .thumbnails > li {
+    margin-left: 30px;
+    }
+    .row-fluid .thumbnails {
+    margin-left: 0;
+    }
+    
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.3cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    .name,
+    .surname {
+        font-size: 21pt;
+        line-height: 23pt;
+    }
+
+    .email,
+    .phone {
+        font-size: 18pt;
+        line-height: 20pt;
+    }
+
+    #content .first-col {
+        padding-left: 0;
+        padding-top: 10pt;
+        padding-right: 0;
+    }
+
+    div.resumeEntry {
+        padding-top: 10pt;
+        page-break-inside: avoid;
+    }
+
+    div.resumeEntry div h3 {
+        font-size: 12pt;
+        line-height: 13pt;
+    }
+
+    div.resumeEntry div.span3 p {
+        font-size: 10pt;
+        line-height: 12pt;
+        margin-top: 0;
+    }
+
+    div.resumeEntry div em {
+        font-size: 10pt;
+    }
+    
+    div.resumeEntry .description h5 {
+        font-size: 8pt;
+        line-height: 10pt;
+    }
+
+    div.resumeEntry .description p {
+        font-size: 10pt;
+        line-height: 12pt;
+        margin-top: 5pt;
+    }
+
+    .tags {
+        display: none;
+    }
+
+    div#sidebarContent {
+        padding-right: 0;
+    }
+
+    div#sidebarContent div.sidebarPanel {        
+        margin-top: 14pt;
+        page-break-inside: avoid;
+    }
+    
+    div#sidebarContent div.sidebarPanel h4 {
+        margin: 7pt 0;
+    }
+
+    div#sidebarContent div.sidebarPanel p {
+        font-size: 10pt;
+        line-height: 11pt;
+        margin-top: 5pt;
+    }
+
+    div#sidebarContent div.sidebarPanel .hireme {
+        text-decoration: none;
+    }
+
+    div#sidebarContent h5 {
+        font-size: 10pt;
+        line-height: 11pt;
+        font-weight: normal;
+        color: #acacac;
+        font-style: italic;
+        margin: 0 0 3pt 0;
+    }
+
+
+    div#sidebarContent div.sidebarPanel ul {
+        padding-left: 0;
+    }
+
+    div#sidebarContent div#skills ul li {
+        font-size: 7pt;
+        line-height: 10pt;
+        width: 80pt;
+    }
+}
