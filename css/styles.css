@@ -188,8 +188,14 @@ nav a:hover {
 }
 
 .phone,
-.email {
+.email,
+.web {
     text-align: right;
+}
+
+.web a,
+.web a:hover {
+    color: #555;
 }
 
 .name,
@@ -299,9 +305,10 @@ div#sidebarContent div#skills div {
     }
 
     .email,
-    .phone {
-        font-size: 20px;
-        line-height: 28px;
+    .phone,
+    .web {
+        font-size: 18px;
+        line-height: 22px;
     }
 }
 
@@ -350,9 +357,10 @@ div#sidebarContent div#skills div {
     }
 
     .email,
-    .phone {
-        font-size: 31px;
-        line-height: 40px;
+    .phone,
+    .web {
+        font-size: 21px;
+        line-height: 28px;
     }
 }
 
@@ -375,9 +383,10 @@ div#sidebarContent div#skills div {
     }
 
     .phone,
-    .email {
-        font-size: 38px;
-        line-height: 50px;
+    .email,
+    .web {
+        font-size: 24px;
+        line-height: 32px;
     }
 }
 
@@ -873,9 +882,14 @@ div#sidebarContent div#skills div {
     }
 
     .email,
-    .phone {
-        font-size: 18pt;
-        line-height: 20pt;
+    .phone,
+    .web {
+        font-size: 12pt;
+        line-height: 14pt;
+    }
+
+    .web a {
+        text-decoration: none;
     }
 
     #content .first-col {
