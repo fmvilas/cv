@@ -14,6 +14,12 @@ define([
 
         render: function () {
             this.$el.html(template());
+
+            $('.lang-caption').text('Select language');
+            $('span', '.like').text('Do you like what you see? ');
+            $('a', '.like').attr('href', 'mailto:fmvilas@gmail.com').text('Hire me!');
+            $('#download').attr('href', 'files/fmvilas_cv_en.pdf').text('Download CV as a PDF file');
+
             return this;
         }
     });

@@ -11,6 +11,7 @@ textarea {
 }
 
 body {
+    min-width: 750px;
     font-family: 'Myriad Pro', 'Trebuchet Ms', sans-serif;
     font-size: 100%;
     line-height: 22px;
@@ -64,6 +65,7 @@ textarea {
 .wrapper {
     width: 90%;
     margin: 0 5%;
+    padding: 10px 0;
 }
 
 /* ===================
@@ -187,16 +189,12 @@ nav a:hover {
 
 .phone,
 .email {
-    font-size: 38px;
-    line-height: 50px;
     text-align: right;
 }
 
 .name,
 .surname {
-    font-size: 58px;
     font-weight: 600;
-    line-height: 56px;
     text-transform: uppercase;
 }
 
@@ -225,19 +223,23 @@ div.resumeEntry div.when  { text-align: right; }
 div.resumeEntry div.span3 p { color:#f54cab; font-size: 20px;font-style: italic; font-weight: 100;}
 div.resumeEntry div em { color:#bbbbbb; font-size: 16px;}
 div.resumeEntry div h3 { color: #555555; font-weight: 100; font-size: 24px; font-style: italic; line-height: 25px; margin: 0; }
-div.resumeEntry div h5 { font-size: 16px; margin: 0 0 10px 0; }
+div.resumeEntry div h5 { font-size: 16px; margin: 0 0 4px 0; }
 div.resumeEntry div h5 a { color: #34beee; font-weight: 100; }
 div.resumeEntry p { font-weight: 100; }
-div.resumeEntry .tag { background: #555; font-size: 12px; color: #fff; white-space: nowrap; padding: 4px 8px; margin-right: 5px; }
+.tag { background: #555; font-size: 12px; color: #fff; white-space: nowrap; padding: 4px 8px; margin-right: 5px; }
 
 /* Sidebar Content Settings */
 div#sidebarContent { padding: 0 20px 40px 50px; margin: 0; }
 div#sidebarContent h4 { font-size: 20px; font-weight: normal; color: #acacac; font-style: italic; margin-bottom: 20px; }
+div#sidebarContent h5 { font-size: 16px; line-height: 18px; font-weight: normal; color: #acacac; font-style: italic; margin: 0 0 10px 0; }
+
 div#sidebarContent p em { color: #888888; }
 div#sidebarContent div.sidebarPanel { margin-top: 60px; clear: both;}
 div#sidebarContent div#skills ul{ margin: 0; padding-bottom: 15px; list-style: none; }
 div#sidebarContent div#skills ul li { line-height: 26px; border-bottom: 1px solid #dadada; width: 140px; padding: 0 4px;}
-div#sidebarContent div#skills ul li:hover div.
+div#sidebarContent div#skills div {
+    margin-bottom: 20px;
+}
 
 
 
@@ -284,6 +286,26 @@ div#sidebarContent div#skills ul li:hover div.
     }
 }
 
+@media (max-width: 767px) {
+    body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .name,
+    .surname {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    .email,
+    .phone {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+
 @media (min-width: 768px) {
 
 /* ====================
@@ -320,6 +342,18 @@ div#sidebarContent div#skills ul li:hover div.
         float: right;
         width: 28%;
     }
+
+    .name,
+    .surname {
+        font-size: 43px;
+        line-height: 46px;
+    }
+
+    .email,
+    .phone {
+        font-size: 31px;
+        line-height: 40px;
+    }
 }
 
 @media (min-width: 1140px) {
@@ -332,6 +366,18 @@ div#sidebarContent div#skills ul li:hover div.
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
         padding: 10px 0;
+    }
+
+    .name,
+    .surname {
+        font-size: 58px;
+        line-height: 56px;
+    }
+
+    .phone,
+    .email {
+        font-size: 38px;
+        line-height: 50px;
     }
 }
 
@@ -751,9 +797,9 @@ div#sidebarContent div#skills ul li:hover div.
     }
     
     * {
-        background: transparent !important;
         box-shadow: none !important;
         text-shadow: none !important;
+        -webkit-print-color-adjust: exact;
     }
 
     a,
@@ -810,6 +856,16 @@ div#sidebarContent div#skills ul li:hover div.
         page-break-after: avoid;
     }
 
+    .header-container {
+        display: none;
+    }
+
+    .subheader-col1,
+    .subheader-col2 {
+        padding-top: 10pt;
+        padding-bottom: 10pt;
+    }
+
     .name,
     .surname {
         font-size: 21pt;
@@ -863,8 +919,16 @@ div#sidebarContent div#skills ul li:hover div.
         display: none;
     }
 
+    .tag {
+        font-size: 6pt;
+        font-weight: bold;
+        line-height: 8pt;
+    }
+
     div#sidebarContent {
-        padding-right: 0;
+        padding-left: 20pt;
+        padding-right: 5pt;
+        padding-bottom: 0;
     }
 
     div#sidebarContent div.sidebarPanel {        
@@ -877,7 +941,7 @@ div#sidebarContent div#skills ul li:hover div.
     }
 
     div#sidebarContent div.sidebarPanel p {
-        font-size: 10pt;
+        font-size: 9pt;
         line-height: 11pt;
         margin-top: 5pt;
     }

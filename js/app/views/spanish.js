@@ -14,6 +14,12 @@ define([
 
         render: function () {
             this.$el.html(template());
+
+            $('.lang-caption').text('Seleccionar idioma');
+            $('span', '.like').html('&iquest;Te gusta lo que ves? ');
+            $('a', '.like').attr('href', 'mailto:fmvilas@gmail.com').html('&iexcl;Contr&aacute;tame!');
+            $('#download').attr('href', 'files/fmvilas_cv_es.pdf').text('Descarga el CV en formato PDF');
+
             return this;
         }
     });
