@@ -5,7 +5,8 @@ define([
     'underscore',
     'backbone',
     'text!tpl/Shell.html',
-    'require'
+    'require',
+    'bootstrap'
 ], function($, _, Backbone, tpl, require) {
 
     var template = _.template(tpl);
